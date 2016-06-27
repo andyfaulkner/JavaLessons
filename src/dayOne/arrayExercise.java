@@ -81,7 +81,7 @@ public class arrayExercise {
 
     static int intCount (int[] nums){
         int numberOfInts = 0;
-        for (int i = 0; i < nums.length - 1; i++){
+        for (int i = 0; i < nums.length; i++){
             if (nums[i] % 2 == 0 || nums[i] == 0){
                 numberOfInts++;
             }
