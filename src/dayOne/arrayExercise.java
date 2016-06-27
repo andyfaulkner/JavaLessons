@@ -46,6 +46,24 @@ public class arrayExercise {
         System.out.println(intCount(test13));
         System.out.println(intCount(test14));
         System.out.println(intCount(test15));
+
+        int [] test16 = {10, 3, 5, 6};
+        int [] test17 = {7, 2, 10, 9};
+        int [] test18 = {2, 10, 7, 2};
+
+        System.out.println(bigDiff(test16));
+        System.out.println(bigDiff(test17));
+        System.out.println(bigDiff(test18));
+
+        int [] test19 = {1, 2, 2, 1};
+        int [] test20 = {1, 1};
+        int [] test21 = {1, 2, 2, 1, 13};
+
+        System.out.println(sum13(test19));
+        System.out.println(sum13(test20));
+        System.out.println(sum13(test21));
+
+
     }
 
     static boolean sameFirstLast(int[] nums){
@@ -89,6 +107,31 @@ public class arrayExercise {
         return numberOfInts;
     }
 
+    static int bigDiff(int[] nums){
+        int minNumber = 100;
+        int maxNumber = 0;
+        for (int i = 0; i < nums.length; i++){
+            minNumber = Math.min(minNumber, nums[i]);
+            maxNumber = Math.max(maxNumber, nums[i]);
+        }
+        int difference = maxNumber - minNumber;
+        return difference;
     }
+
+    static int sum13(int[] nums){
+        int total = 0;
+        for (int i = 0; i < nums.length; i++){
+            if (nums[i] < 13) {
+                total += nums[i];
+            } else {
+                break;
+            }
+        }
+        return total;
+    }
+
+    }
+
+
 
 
