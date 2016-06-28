@@ -47,6 +47,10 @@ public class Contact {
         addresses.remove(index);
     }
 
+//    public Address getAddress(){
+//        return List<Address>;
+//    }
+
     public Person getPerson(){
         return p;
     }
