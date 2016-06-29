@@ -12,8 +12,8 @@ public class Program {
 
     public static void main(String[]args) {
 
-        book.addNewContact("Andy", "Faulkner", new Address("Hill Top Farm", "Frodsham", "Cheshire", "WA6 6TA"), "07779025430", "andy@andy.com");
-        book.addNewContact("Will", "Davies", new Address("123 This Street", "This Town", "This City", "N16 9PQ"), "0207666666", "will@this.com");
+//        book.addNewContact("Andy", "Faulkner", new Address("Hill Top Farm", "Frodsham", "Cheshire", "WA6 6TA"), "07779025430", "andy@andy.com");
+//        book.addNewContact("Will", "Davies", new Address("123 This Street", "This Town", "This City", "N16 9PQ"), "0207666666", "will@this.com");
         System.out.println("Welcome to BOOM address book");
         menu();
 
@@ -67,36 +67,21 @@ public class Program {
         String contactSearch;
         Scanner scan = new Scanner(System.in);
         contactSearch = scan.nextLine();
-        String textToBeReplaced;
             for (Contact c : book.getContact()) {
                 if (c != null) {
                     if (Objects.equals(contactSearch, c.getPerson().getFirstName())) {
+                        Contact temp = inputScreen();
 
-                        System.out.println("Enter the number of the field you wish to edit");
-                        System.out.println("1. First Name\n2. Last Name\n3. Address\n4. Telephone Number\n5. Email");
-                        int choice = Integer.parseInt(scan.nextLine());
 
-                        switch (choice) {
-                            case 1:
-                                System.out.println("Current first name: " + c.getPerson().getFirstName());
-                                textToBeReplaced = scan.nextLine();
-                                c.getPerson().setFirstName(textToBeReplaced);
-                                break;
-                            case 2:
-                                System.out.println("Current last name: " + c.getPerson().getLastName());
-                                textToBeReplaced = scan.nextLine();
-                                c.getPerson().setLastName(textToBeReplaced);
-                                break;
-                            default:
-                                System.out.println("Invalid choice!");
-                        }
                     }
                 }
+
             }
         menu();
     }
 
-    static void getDetails(){
+    static Contact inputScreen(){
+
         String firstName, lastName, address, email, phoneNumber;
         Scanner s = new Scanner(System.in);
 
@@ -115,7 +100,16 @@ public class Program {
         System.out.println("Enter email: ");
         email = s.nextLine();
 
-        book.addNewContact(firstName, lastName, new Address(data[0], data[1], data[2], data[3]), phoneNumber, email);
+        Contact temp = new Contact(new Person(firstName, lastName), new Address(data[0], data[1], data[2], data[3]), phoneNumber, email);
+
+        return temp;
+    }
+
+    static void getDetails(){
+
+        Contact temp;
+        temp = inputScreen();
+        book.addNewContact(temp);
 
         menu();
     }

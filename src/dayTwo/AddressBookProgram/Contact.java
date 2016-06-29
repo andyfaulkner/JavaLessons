@@ -47,8 +47,15 @@ public class Contact {
         addresses.remove(index);
     }
 
-//    public Address getAddress(){
-//        return List<Address>;
+//    public String[][] getAddress(int c){
+//        String[][] addressData = new String[3][4];
+//        List<Address> singlePersonAddress = new ArrayList<>(addresses.get(c));
+//        for (int i = 0; i < singlePersonAddress.size(); i++){
+//            for (int j = 0; j < 4; j++){
+//                singlePersonAddress[i][j] = singlePersonAddress.get(c);
+//            }
+//        }
+//        return addressData;
 //    }
 
     public Person getPerson(){

@@ -1,5 +1,7 @@
 package dayTwo.AddressBookProgram;
 
+
+
 /**
  * Created by student on 28-Jun-16.
  */
@@ -8,8 +10,8 @@ public class AddressBook {
     int counter = 0;
 
 
-    public void addNewContact(String firstName, String lastName, Address address, String phoneNumber, String email){
-        contacts[counter + 1] = new Contact(new Person(firstName, lastName), address, phoneNumber, email);
+    public void addNewContact(Contact contact){
+        contacts[counter + 1] = contact;
         counter++;
     }
 
@@ -17,5 +19,8 @@ public class AddressBook {
         return contacts;
     }
 
+    public void sortByFirstName(){
+
+    }
 
 }
