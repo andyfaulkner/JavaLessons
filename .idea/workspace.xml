@@ -78,6 +78,7 @@
         <option value="$PROJECT_DIR$/src/dayThree/factoryPattern/HandleError.java" />
         <option value="$PROJECT_DIR$/src/dayThree/HandleError.java" />
         <option value="$PROJECT_DIR$/src/dayThree/HandlingInteger.java" />
+        <option value="$PROJECT_DIR$/src/dayThree/threadDemo.java" />
       </list>
     </option>
   </component>
@@ -169,6 +170,28 @@
               <option name="myItemId" value="dayThree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="threadDemo.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLessonsAndy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaLessons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dayThree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -177,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -189,7 +212,7 @@
       <recent name="dayThree.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HandlingInteger">
+  <component name="RunManager" selected="Application.threadDemo">
     <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -198,26 +221,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dayTwo.AddressBookProgram.Program" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaLessonsAndy" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dayTwo.ClassOfAnimals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dayTwo.ClassOfAnimals.Program" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -273,6 +276,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dayThree.HandlingInteger" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaLessonsAndy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="threadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dayThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dayThree.threadDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -608,18 +631,18 @@
       <item index="2" class="java.lang.String" itemvalue="Application.binaryProgram" />
       <item index="3" class="java.lang.String" itemvalue="Application.ValidatePassword" />
       <item index="4" class="java.lang.String" itemvalue="Application.Program" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Program (1)" />
-      <item index="6" class="java.lang.String" itemvalue="Application.DogProgramme" />
-      <item index="7" class="java.lang.String" itemvalue="Application.HandleError" />
-      <item index="8" class="java.lang.String" itemvalue="Application.HandlingInteger" />
+      <item index="5" class="java.lang.String" itemvalue="Application.DogProgramme" />
+      <item index="6" class="java.lang.String" itemvalue="Application.HandleError" />
+      <item index="7" class="java.lang.String" itemvalue="Application.HandlingInteger" />
+      <item index="8" class="java.lang.String" itemvalue="Application.threadDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HandlingInteger" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HandleError" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DogProgramme" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Program" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Program (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.threadDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HandlingInteger" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HandleError" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DogProgramme" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -645,14 +668,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66890985" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66890985" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4602961" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20951156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -828,8 +851,8 @@
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +862,7 @@
         <state relative-caret-position="357">
           <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#menu#0;class#Program#0" expanded="false" />
           </folding>
         </state>
@@ -863,8 +886,8 @@
         <state relative-caret-position="221">
           <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
           <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,10 +921,10 @@
         <state relative-caret-position="204">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#220#221#0" expanded="false" />
+            <element signature="e#269#270#0" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -942,6 +965,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dayThree/threadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
