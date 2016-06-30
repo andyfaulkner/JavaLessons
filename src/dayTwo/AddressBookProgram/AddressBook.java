@@ -6,7 +6,7 @@ package dayTwo.AddressBookProgram;
  * Created by student on 28-Jun-16.
  */
 public class AddressBook {
-    private Contact[] contacts = new Contact [100];
+    public static Contact[] contacts = new Contact [100];
     int counter = 0;
 
 
