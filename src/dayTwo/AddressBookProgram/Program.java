@@ -8,14 +8,16 @@ import java.util.Scanner;
  */
 public class Program {
 
-    static AddressBook book = new AddressBook();
+    public static AddressBook book = new AddressBook();
 
     public static void main(String[]args) {
 
-//        book.addNewContact("Andy", "Faulkner", new Address("Hill Top Farm", "Frodsham", "Cheshire", "WA6 6TA"), "07779025430", "andy@andy.com");
-//        book.addNewContact("Will", "Davies", new Address("123 This Street", "This Town", "This City", "N16 9PQ"), "0207666666", "will@this.com");
+        Contact add1 = new Contact(new Person("Andy", "Faulkner"), new Address("Hill Top Farm", "Frodsham", "Cheshire", "WA6 6TA"), "07779025430", "andy@andy.com");
+        Contact add2 = new Contact(new Person("Will", "Davies"), new Address("123 This Street", "This Town", "This City", "N16 9PQ"), "0207666666", "will@this.com");
+        book.addNewContact(add1);
         System.out.println("Welcome to BOOM address book");
-        menu();
+//        menu();
+        new AddressBookGUI();
 
     }
 
