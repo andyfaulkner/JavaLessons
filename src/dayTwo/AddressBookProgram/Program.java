@@ -15,7 +15,8 @@ public class Program {
 //        book.addNewContact("Andy", "Faulkner", new Address("Hill Top Farm", "Frodsham", "Cheshire", "WA6 6TA"), "07779025430", "andy@andy.com");
 //        book.addNewContact("Will", "Davies", new Address("123 This Street", "This Town", "This City", "N16 9PQ"), "0207666666", "will@this.com");
         System.out.println("Welcome to BOOM address book");
-        menu();
+       new AdressBookGUI();
+        // menu();
 
     }
 
